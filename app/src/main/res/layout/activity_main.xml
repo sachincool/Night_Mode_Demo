@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="24dp"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/cardbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:text="Card Title"
+                android:textColor="?attr/textcolor"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/textcolor"
+                android:text="Lorem Ipsum dolor sit amet,consectetur adipiadsdkjasfhjasgj,dsfmdsbfsdbbfjbs rfeiyfbsdbgsdmghewl,gjsdjgs"
+                android:layout_marginTop="8dp" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/cardbackground"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="?attr/textcolor"
+                android:text="Some Text" />
+
+            <RadioButton
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:buttonTint="?attr/tintcolor"
+                android:text="Radio Button" />
+
+            <CheckBox
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="checkbox"
+                android:buttonTint="?attr/tintcolor" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Button"
+          android:background="?attr/buttoncolor"
+          android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+<android.support.v7.widget.CardView
+    app:cardBackgroundColor="?attr/cardbackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical"
+        android:padding="8dp"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:textColor="?attr/textcolor"
+          android:text="Enable Dark Mode"/>
+        <Switch
+            android:id="@+id/myswitch"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Night Mode"
+            android:textColor="?attr/textcolor"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
